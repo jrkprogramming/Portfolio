@@ -37,7 +37,7 @@ const Projects = (props: Props) => {
             <h4 className="text-4xl font-semibold text-center">
               <span className="underline decoration-[#F7AB0A]/50">
                 {/* Project {i + 1} of {projects.length}: */}
-                {/* Project 1 of 4 */}
+                Project 1 of 4
               </span>{" "}
               Plant Cultivar
             </h4>
@@ -85,7 +85,7 @@ const Projects = (props: Props) => {
             <h4 className="text-4xl font-semibold text-center">
               <span className="underline decoration-[#F7AB0A]/50">
                 {/* Project {i + 1} of {projects.length}: */}
-                {/* Project 2 of 4 */}
+                Project 2 of 4
               </span>{" "}
               PinIt
             </h4>
@@ -136,7 +136,7 @@ const Projects = (props: Props) => {
             <h4 className="text-4xl font-semibold text-center">
               <span className="underline decoration-[#F7AB0A]/50">
                 {/* Project {i + 1} of {projects.length}: */}
-                {/* Project 3 of 4 */}
+                Project 3 of 4
               </span>{" "}
               Meal Prep Sharing App
             </h4>
@@ -144,7 +144,7 @@ const Projects = (props: Props) => {
             <p className="text-lg text-center md:text-left">
               This is an application that will allow users to log in and post
               their favorite meal preps. The recipes will have instructions and
-              a list of ingredients to prepare the meals. Topics Resources
+              a list of ingredients to prepare the meals.
             </p>
           </div>
           <div>
@@ -182,7 +182,7 @@ const Projects = (props: Props) => {
             <h4 className="text-4xl font-semibold text-center">
               <span className="underline decoration-[#F7AB0A]/50">
                 {/* Project {i + 1} of {projects.length}: */}
-                {/* Project 4 of 4 */}
+                Project 4 of 4
               </span>{" "}
               Pokemon Battle Arena
             </h4>
