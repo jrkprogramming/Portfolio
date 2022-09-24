@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 type Props = {};
 
@@ -49,18 +50,20 @@ const Projects = (props: Props) => {
           </div>
           {/* Button Links */}
           <div>
-            <button
+            <a
               type="button"
+              href=""
               className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-80"
             >
-              Demo
-            </button>
-            <button
+              <button>Demo</button>
+            </a>
+            <a
               type="button"
+              href="https://github.com/jrkprogramming/PlantShop-Frontend"
               className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
             >
-              Code
-            </button>
+              <button>Code</button>
+            </a>
           </div>
         </div>
         {/* ))} */}
@@ -99,18 +102,20 @@ const Projects = (props: Props) => {
             </p>
           </div>
           <div>
-            <button
+            <a
               type="button"
+              href="https://jmmz-ga-p3places-ui.herokuapp.com/"
               className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-80"
             >
-              Demo
-            </button>
-            <button
+              <button>Demo</button>
+            </a>
+            <a
               type="button"
+              href="https://github.com/jrkprogramming/PinIt-Frontend"
               className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
             >
-              Code
-            </button>
+              <button>Code</button>
+            </a>
           </div>
         </div>
         {/* ))} */}
@@ -143,18 +148,20 @@ const Projects = (props: Props) => {
             </p>
           </div>
           <div>
-            <button
+            <a
               type="button"
+              href=""
               className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-80"
             >
-              Demo
-            </button>
-            <button
+              <button>Demo</button>
+            </a>
+            <a
               type="button"
+              href="https://github.com/jrkprogramming/MealPrepApp"
               className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
             >
-              Code
-            </button>
+              <button>Code</button>
+            </a>
           </div>
         </div>
         {/* ))} */}
@@ -190,20 +197,22 @@ const Projects = (props: Props) => {
               can select Pokemon again. (All Pokemon and moves are available)
             </p>
           </div>
-        </div>
-        <div>
-          <button
-            type="button"
-            className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-80"
-          >
-            Demo
-          </button>
-          <button
-            type="button"
-            className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
-          >
-            Code
-          </button>
+          <div>
+            <a
+              type="button"
+              href="https://jrkprogramming.github.io/PokemonBattleArena/"
+              className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-80"
+            >
+              <button>Demo</button>
+            </a>
+            <a
+              type="button"
+              href="https://github.com/jrkprogramming/PokemonBattleArena"
+              className="text-gray-900 hover:text-white border border-gray-800 hover:bg-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800"
+            >
+              <button>Code</button>
+            </a>
+          </div>
         </div>
         {/* ))} */}
       </div>
