@@ -75,12 +75,12 @@ function Header({}: Props) {
             d="M13 10V3L4 14h7v7l9-11h-7z"
           ></path>
         </svg>
-        <Link
-          href="https://docs.google.com/document/d/17eNTTbhZfwOiMyB3zY8G5Yn_ln2OxZ0sH14FBkgcns4/edit?usp=sharing"
+        <a
+          href="https://drive.google.com/file/d/1pYyAT2lLZAfdmj3VhimbTYTKZ1jC-ENo/view?usp=sharing"
           className="hidden text-sm text-gray-300 uppercase md:inline-flex"
         >
           Resumè
-        </Link>
+        </a>
       </motion.div>
     </header>
   );
