@@ -32,16 +32,16 @@ function About({}: Props) {
           background:
         </h4>
         <p>
-          My full name is Jose Rafael Kaibigan. I am a Software Engineer with 5+
+          My name is Jose Rafael Kaibigan! I am a Software Engineer with 5+
           years experience in business operations and account management.
-          Growth-focused, detail-oriented, and solutions-driven, apply the same
+          Growth-focused, detail-oriented, and solutions-driven, apply an
           unwavering attitude to solving client pain points as to writing clean
           and scalable code. Proven to develop strong relationships across
           cultures and provide decisive team leadership in a fast-paced
-          environment. I have experience in developing applications in
-          JavaScript, Node.js, Express.js, React, Python, and Django. Finding
-          solutions to complex problems and building applications that simplify
-          our lives is my passion.
+          environment. Experienced in developing applications in JavaScript,
+          Node.js, Express.js, React, Python, and Django. and finding solutions
+          to complex problems while building applications that simplify our
+          lives is my passion.
         </p>
       </div>
     </motion.div>

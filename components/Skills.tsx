@@ -21,7 +21,7 @@ const Skills = ({ directionLeft }: Props) => {
         my current development stack
       </h3> */}
 
-      <div className="grid grid-cols-4 gap-5 mt-20">
+      <div className="grid grid-cols-4 gap-5 mt-20 ">
         <div className="relative flex cursor-pointer group">
           <motion.img
             initial={{
