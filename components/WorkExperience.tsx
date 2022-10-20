@@ -106,8 +106,15 @@ function WorkExperience({}: Props) {
 
             <ul className="ml-5 space-y-4 text-lg list-dic">
               <li>
-                Worked on the Encryption, Archive, and Backup team to resolve
-                customers issues with Zix’s cybersecurity email products.
+                Operated on the Encryption, Archive, and Backup team to resolve
+                customer issues with products including advanced threat
+                protection, email encryption, information archiving, email
+                continuity, migration services, Hosted Exchange, and Microsoft
+                Office 365 products.
+              </li>
+              <li>
+                Educated customers on Office 365, mail protocols, DNS, TLS,
+                device mail setup, OS, and common mail client services.
               </li>
             </ul>
           </div>
