@@ -76,7 +76,7 @@ function Header({}: Props) {
           ></path>
         </svg>
         <a
-          href="https://drive.google.com/file/d/1pYyAT2lLZAfdmj3VhimbTYTKZ1jC-ENo/view?usp=sharing"
+          href="https://drive.google.com/file/d/1PT8idr2g7DTOsTG2cpPZOZGhVpWJFWou/view?usp=share_link"
           className="hidden text-sm text-gray-300 uppercase md:inline-flex"
         >
           Resumè
