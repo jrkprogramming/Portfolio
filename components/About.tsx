@@ -27,9 +27,9 @@ function About({}: Props) {
 
       <div className="px-0 space-y-10 md:px-10">
         <h4 className="text-4xl font-semibold ">
-          Here is some{" "}
+          A little bit about{" "}
           {/* <span className="underline decoration-[#F7AB0A]">little</span>{" "} */}
-          background:
+          myself:
         </h4>
         <p>
           My name is Jose Rafael Kaibigan! I am a Software Engineer with 5+
