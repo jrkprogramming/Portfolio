@@ -22,7 +22,7 @@ function WorkExperience({}: Props) {
             transition={{ duration: 1.2 }}
             whileInView={{ opacity: 1, y: 0 }}
             className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center "
-            src="https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/294139000_731789167992764_3372250267614005969_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=n77BUGcIzNoAX8TRWye&_nc_ht=scontent-dfw5-1.xx&oh=00_AfDNFC7ycehLlTx432F1tT0EvY3o-SOVDhFPe57JWCr-Lg&oe=636825FE"
+            src="https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/294139000_731789167992764_3372250267614005969_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=SFwR-cSaxowAX_sKT6O&_nc_ht=scontent-dfw5-1.xx&oh=00_AfAY6sGc7LSKqYxEQ43j-E4FqQuV5XYiXSeIX8Cu4gVMMQ&oe=63A3797E"
             alt=""
           />
 
