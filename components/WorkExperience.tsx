@@ -1,7 +1,7 @@
-import React from "react";
-import { motion } from "framer-motion";
+import React from 'react'
+import { motion } from 'framer-motion'
 
-type Props = {};
+type Props = {}
 
 function WorkExperience({}: Props) {
   return (
@@ -11,9 +11,7 @@ function WorkExperience({}: Props) {
       transition={{ duration: 1.5 }}
       className="relative flex flex-col h-screen max-w-full mx-auto overflow-hidden text-lft md:flex-row px10 justify-evenly"
     >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
-        Experience
-      </h3>
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">Experience</h3>
 
       <div className="flex w-full p-10 space-x-5 overflow-x-scroll snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
         <article className="flex flex-col rounded-lg items-center space-between space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 mt-36 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
@@ -50,14 +48,16 @@ function WorkExperience({}: Props) {
 
             <ul className="ml-5 space-y-4 text-lg list-dic">
               <li>
-                Participated in software development procedures by creating test
-                structures, identifying and eliminating bugs, performing data
-                aggregation and API communication.
+                Collaborated with the Cloud Team to create test structures, identify and resolve bugs, and perform data aggregation and internal API communication in the Back Office software code
+                using React.js and TypeScript.
               </li>
               <li>
-                Programmed and maintained application code using languages such
-                as TypeScript / Node.js / Python / React.js
+                Played a key role in enhancing our Back Office software by successfully refactoring the codebase and efficiently addressed numerous bug fixes and user stories assigned on Azure DevOps,
+                significantly improving the overall functionality of the app.
               </li>
+              <li>Effectively utilized the capabilities of git version control, ensuring seamless collaboration and efficient code management.</li>
+              <li>Developed HTML/CSS email templates for automated customer engagement, including marketing, software updates, and newsletters.</li>
+              <li>Collaborated with the Customer Experience Department to support customers with software-related issues on XS1 and XP1 devices.</li>
             </ul>
           </div>
         </article>
@@ -73,9 +73,7 @@ function WorkExperience({}: Props) {
           />
 
           <div className="px-0 md:px-10">
-            <h4 className="text-4xl font-light">
-              Software Developer Apprentice{" "}
-            </h4>
+            <h4 className="text-4xl font-light">Software Developer Apprentice </h4>
             <p className="mt-1 text-2xl font-bold">General Assembly</p>
             <div className="flex my-2 space-x-2">
               {/* <img
@@ -94,24 +92,12 @@ function WorkExperience({}: Props) {
                 alt=""
               /> */}
             </div>
-            <p className="py-5 text-gray-300 uppercase">
-              New York, New York (Remote)
-            </p>
+            <p className="py-5 text-gray-300 uppercase">New York, New York (Remote)</p>
 
             <ul className="ml-5 space-y-4 text-lg list-dic">
-              <li>
-                Software engineering program, receiving professional training
-                and working on a variety of web development projects.
-              </li>
-              <li>
-                Included over 420+ hours of professional training over six
-                months.
-              </li>
-              <li>
-                Utilized a hands-on approach to practice user-centered design
-                methods, design thinking skills, team collaboration, and client
-                relations.
-              </li>
+              <li>Software engineering program, receiving professional training and working on a variety of web development projects.</li>
+              <li>Included over 420+ hours of professional training over six months.</li>
+              <li>Utilized a hands-on approach to practice user-centered design methods, design thinking skills, team collaboration, and client relations.</li>
             </ul>
           </div>
         </article>
@@ -128,9 +114,7 @@ function WorkExperience({}: Props) {
 
           <div className="px-0 md:px-10">
             <h4 className="text-4xl font-light">Associate Technician </h4>
-            <p className="mt-1 text-2xl font-bold">
-              Zixcorp Systems - OpenText
-            </p>
+            <p className="mt-1 text-2xl font-bold">Zixcorp Systems - OpenText</p>
             <div className="flex my-2 space-x-2">
               {/* <img
                 className="w-10 h-10 rounded-full"
@@ -148,22 +132,14 @@ function WorkExperience({}: Props) {
                 alt=""
               /> */}
             </div>
-            <p className="py-5 text-gray-300 uppercase">
-              Gulf Breeze, Florida (Remote)
-            </p>
+            <p className="py-5 text-gray-300 uppercase">Gulf Breeze, Florida (Remote)</p>
 
             <ul className="ml-5 space-y-4 text-lg list-dic">
               <li>
-                Operated on the Encryption, Archive, and Backup team to resolve
-                customer issues with products including advanced threat
-                protection, email encryption, information archiving, email
-                continuity, migration services, Hosted Exchange, and Microsoft
-                Office 365 products.
+                Operated on the Encryption, Archive, and Backup team to resolve customer issues with products including advanced threat protection, email encryption, information archiving, email
+                continuity, migration services, Hosted Exchange, and Microsoft Office 365 products.
               </li>
-              <li>
-                Educated customers on Office 365, mail protocols, DNS, TLS,
-                device mail setup, OS, and common mail client services.
-              </li>
+              <li>Educated customers on Office 365, mail protocols, DNS, TLS, device mail setup, OS, and common mail client services.</li>
             </ul>
           </div>
         </article>
@@ -198,23 +174,15 @@ function WorkExperience({}: Props) {
                 alt=""
               /> */}
             </div>
-            <p className="py-5 text-gray-300 uppercase">
-              Gulf Breeze, Florida (Remote)
-            </p>
+            <p className="py-5 text-gray-300 uppercase">Gulf Breeze, Florida (Remote)</p>
 
             <ul className="ml-5 space-y-4 text-lg list-dic">
+              <li>Delivered exceptional customer service while assisting customers with their hardware and software configurations. </li>
+              <li>Provided step-by-step guidance to ensure that customers were able to optimize the functionality of their products.</li>
+              <li>Troubleshoot and resolve technical issues for cable, internet, and phone services</li>
               <li>
-                Provide exceptional customer service while walking customers
-                through hardware and software configurations to maximize product
-                functionality.
-              </li>
-              <li>
-                Educate customers on understanding of internet, networking, and
-                email protocols.
-              </li>
-              <li>
-                Troubleshoot and resolve technical issues for cable, internet,
-                and phone services
+                Played a key role in educating customers on various internet, networking, and email protocols. I patiently explained technical concepts in a clear and concise manner, empowering
+                customers to have a better understanding of the technology they were utilizing.
               </li>
             </ul>
           </div>
@@ -231,12 +199,8 @@ function WorkExperience({}: Props) {
           />
 
           <div className="px-0 md:px-10">
-            <h4 className="text-4xl font-light">
-              Argos Investment Program, Analyst
-            </h4>
-            <p className="mt-1 text-2xl font-bold">
-              University of West Florida
-            </p>
+            <h4 className="text-4xl font-light">Argos Investment Program, Analyst</h4>
+            <p className="mt-1 text-2xl font-bold">University of West Florida</p>
             <div className="flex my-2 space-x-2">
               {/* <img
                 className="w-10 h-10 rounded-full"
@@ -258,14 +222,18 @@ function WorkExperience({}: Props) {
 
             <ul className="ml-5 space-y-4 text-lg list-dic">
               <li>Bachelors of Science in Business Administration - Finance</li>
-              <li>Equity Fund Management</li>
               <li>
-                Performed extensive equity analysis to initiate high growth
-                buy/sell/hold recommendations
+                Conducted in-depth research on companies, industries, and market trends to gather relevant data and insights. I utilized financial statements, market data, and other sources to
+                evaluate the financial health, growth potential, and competitive position of potential investments. By leveraging quantitative and qualitative analysis techniques, I assessed the risks
+                and opportunities associated with different securities
               </li>
               <li>
-                Managed $1.5 million AUM consisting of equity, fixed income, and
-                derivatives
+                Provided buy/sell/hold recommendations to optimize the performance of the equity fund. I carefully considered factors such as valuation, growth prospects, industry dynamics, and risk
+                profiles to make informed investment decisions. By closely monitoring market conditions and staying abreast of industry news, I ensured that the fund was well-positioned to capitalize
+                on emerging opportunities and mitigate potential risks.
+              </li>
+              <li>
+                Monitored the performance of different asset classes, rebalancing the portfolio as necessary, and optimizing the allocation of assets to maximize returns and manage risk effectively.
               </li>
             </ul>
           </div>
@@ -301,27 +269,13 @@ function WorkExperience({}: Props) {
                 alt=""
               /> */}
             </div>
-            <p className="py-5 text-gray-300 uppercase">
-              New York, New York (Times Square and 34st.)
-            </p>
+            <p className="py-5 text-gray-300 uppercase">New York, New York (Times Square and 34st.)</p>
 
             <ul className="ml-5 space-y-4 text-lg list-dic">
-              <li>
-                Provide ongoing support in training and communicates feedback
-                from team members to store leadership.
-              </li>
-              <li>
-                Maximize personal and store sales by promoting brand
-                initiatives.
-              </li>
-              <li>
-                Ensure the store is brand-aligned through flawless execution of
-                visual presentation and marketing display.
-              </li>
-              <li>
-                Ensure all team members comply with company policies and
-                procedures.
-              </li>
+              <li>Provide ongoing support in training and communicates feedback from team members to store leadership.</li>
+              <li>Maximize personal and store sales by promoting brand initiatives.</li>
+              <li>Ensure the store is brand-aligned through flawless execution of visual presentation and marketing display.</li>
+              <li>Ensure all team members comply with company policies and procedures.</li>
             </ul>
           </div>
         </article>
@@ -359,21 +313,19 @@ function WorkExperience({}: Props) {
             <p className="py-5 text-gray-300 uppercase">Pensacola, Florida</p>
 
             <ul className="ml-5 space-y-4 text-lg list-dic">
-              <li>Responsible for opening and closing stores.</li>
               <li>
-                Develops, coaches, and motivates sales associates to provide an
-                exceptional customer experience.
+                Assumed a leadership position on the sales floor. I provided guidance and direction to the sales associates, ensuring that they maintained a focus on delivering exceptional customer
+                service.
               </li>
-              <li>
-                Responsible for leading sales floor coverage while maintaining a
-                selling focus in the absence of store management.
-              </li>
+              <li>Led by example and instilled a selling mindset and encouraged a high level of engagement with customers to meet their needs and exceed their expectations.</li>
+              <li>Offered tailored recommendations to help customers make confident fashion choices.</li>
+              <li>Stayed up-to-date with the latest fashion trends and leveraged product knowledge to create a memorable shopping experience.</li>
             </ul>
           </div>
         </article>
       </div>
     </motion.div>
-  );
+  )
 }
 
-export default WorkExperience;
+export default WorkExperience
