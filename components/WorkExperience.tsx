@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import oxefitLogo from '../public/294139000_731789167992764_3372250267614005969_n.jpeg'
-import mediacomLogo from '../public/MediacomLogo_7109F2F6-5056-A36A-0B5006A67E74E6C6-7109f2085056a36_7109fa0e-5056-a36a-0bc19d0d57ab5198.jpeg'
+import mediacomLogo from '../public/352395447_555076740114808_2428287926097651131_n.jpeg'
 
 type Props = {}
 
