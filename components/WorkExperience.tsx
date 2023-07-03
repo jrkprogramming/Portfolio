@@ -1,5 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import oxefitLogo from '../public/294139000_731789167992764_3372250267614005969_n.jpeg'
+import mediacomLogo from '../public/352395447_555076740114808_2428287926097651131_n.jpeg'
 
 type Props = {}
 
@@ -20,7 +22,7 @@ function WorkExperience({}: Props) {
             transition={{ duration: 1.2 }}
             whileInView={{ opacity: 1, y: 0 }}
             className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center "
-            src="https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/294139000_731789167992764_3372250267614005969_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=SFwR-cSaxowAX_sKT6O&_nc_ht=scontent-dfw5-1.xx&oh=00_AfAY6sGc7LSKqYxEQ43j-E4FqQuV5XYiXSeIX8Cu4gVMMQ&oe=63A3797E"
+            src={oxefitLogo.src}
             alt=""
           />
 
@@ -108,7 +110,7 @@ function WorkExperience({}: Props) {
             transition={{ duration: 1.2 }}
             whileInView={{ opacity: 1, y: 0 }}
             className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
-            src="https://media-exp1.licdn.com/dms/image/C560BAQEGJo5v9k8ZDg/company-logo_200_200/0/1655671707143?e=2147483647&v=beta&t=UiiXIy95ZIrZbHXYLa4lt300Hu-b72lVrPvfABNY2bM"
+            src={mediacomLogo.src}
             alt=""
           />
 

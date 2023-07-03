@@ -1,11 +1,12 @@
-import React from "react";
-import { motion } from "framer-motion";
-import Link from "next/link";
+/* eslint-disable react/no-unescaped-entities */
+import React from 'react'
+import { motion } from 'framer-motion'
+import Link from 'next/link'
 
-type Props = {};
+type Props = {}
 
 const Projects = (props: Props) => {
-  const projects = [1, 2, 3, 4, 5];
+  const projects = [1, 2, 3, 4, 5]
 
   return (
     <motion.div
@@ -14,9 +15,7 @@ const Projects = (props: Props) => {
       transition={{ duration: 1.5 }}
       className="relative flex flex-col h-screen max-w-full mx-auto overflow-hidden text-lft md:flex-row px10 justify-evenly"
     >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
-        Projects
-      </h3>
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">Projects</h3>
 
       <div className="z-20 flex w-full overflow-x-scroll overflow-y-hidden snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80">
         {/* {projects.map((project, i) => ( */}
@@ -38,14 +37,14 @@ const Projects = (props: Props) => {
               <span className="underline decoration-[#F7AB0A]/50">
                 {/* Project {i + 1} of {projects.length}: */}
                 Project 1 of 4
-              </span>{" "}
-              Plant Cultivar
+              </span>{' '}
+              <br></br>
+              Plants 'N Such
             </h4>
 
             <p className="text-lg text-center md:text-left">
-              Plant Cultivar is the name of my mothers small business and this
-              ecommerce application is created to help her manage her orders and
-              allows her customers to browse and purchase her products online.
+              Plants 'N Such is the name of my mothers small business and this ecommerce application is created to help her manage her orders and allows her customers to browse and purchase her
+              products online.
             </p>
           </div>
           {/* Button Links */}
@@ -86,19 +85,15 @@ const Projects = (props: Props) => {
               <span className="underline decoration-[#F7AB0A]/50">
                 {/* Project {i + 1} of {projects.length}: */}
                 Project 2 of 4
-              </span>{" "}
+              </span>{' '}
+              <br></br>
               PinIt
             </h4>
 
             <p className="text-lg text-center md:text-left">
-              Have you ever planned to travel to a location and want to find the
-              best spots around? PinIt is a social app that utilizes the Google
-              Maps API to allow users to keep a log of their favorite places.
-              Users can place pins for these locations and see where other users
-              have pinned locations. You can add descriptions and images to
-              their pins to personlize them. The Google Maps API allows users to
-              search for specific addresses and also click exactly where they
-              want their pin to be located.
+              Have you ever planned to travel to a location and want to find the best spots around? PinIt is a social app that utilizes the Google Maps API to allow users to keep a log of their
+              favorite places. Users can place pins for these locations and see where other users have pinned locations. You can add descriptions and images to their pins to personlize them. The
+              Google Maps API allows users to search for specific addresses and also click exactly where they want their pin to be located.
             </p>
           </div>
           <div>
@@ -137,14 +132,13 @@ const Projects = (props: Props) => {
               <span className="underline decoration-[#F7AB0A]/50">
                 {/* Project {i + 1} of {projects.length}: */}
                 Project 3 of 4
-              </span>{" "}
-              Meal Prep Sharing App
+              </span>{' '}
+              <br></br>
+              Recipe Keeper
             </h4>
 
             <p className="text-lg text-center md:text-left">
-              This is an application that will allow users to log in and post
-              their favorite meal preps. The recipes will have instructions and
-              a list of ingredients to prepare the meals.
+              This is an application that will allow users to log in and post their favorite meal preps. The recipes will have instructions and a list of ingredients to prepare the meals.
             </p>
           </div>
           <div>
@@ -183,18 +177,15 @@ const Projects = (props: Props) => {
               <span className="underline decoration-[#F7AB0A]/50">
                 {/* Project {i + 1} of {projects.length}: */}
                 Project 4 of 4
-              </span>{" "}
+              </span>{' '}
+              <br></br>
               Pokemon Battle Arena
             </h4>
 
             <p className="text-lg text-center md:text-left">
-              My app is a Pokemon arena where a user can select 3 pokemon and
-              choose 4 moves. The user can battle the pokemon they choose and
-              also choose the Pokemon and moves they go against. When a pokemon
-              reaches 0 HP, the pokemon faints and the user sends out the next
-              pokemon to fight in the arena. Once there is a winner or a loser,
-              the site needs to be refreshed and the game will restart and User
-              can select Pokemon again. (All Pokemon and moves are available)
+              My app is a Pokemon arena where a user can select 3 pokemon and choose 4 moves. The user can battle the pokemon they choose and also choose the Pokemon and moves they go against. When a
+              pokemon reaches 0 HP, the pokemon faints and the user sends out the next pokemon to fight in the arena. Once there is a winner or a loser, the site needs to be refreshed and the game
+              will restart and User can select Pokemon again. (All Pokemon and moves are available)
             </p>
           </div>
           <div>
@@ -219,7 +210,7 @@ const Projects = (props: Props) => {
 
       <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12" />
     </motion.div>
-  );
-};
+  )
+}
 
-export default Projects;
+export default Projects

@@ -1,9 +1,9 @@
-import React from "react";
-import { motion } from "framer-motion";
+import React from 'react'
+import { motion } from 'framer-motion'
 
 type Props = {
-  directionLeft?: boolean;
-};
+  directionLeft?: boolean
+}
 
 const Skills = ({ directionLeft }: Props) => {
   return (
@@ -13,9 +13,7 @@ const Skills = ({ directionLeft }: Props) => {
       transition={{ duration: 1.5 }}
       className="h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center"
     >
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
-        Development Stack
-      </h3>
+      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">Development Stack</h3>
 
       {/* <h3 className="absolute top-40 uppercase tracking-[3px] text-gray-500 text-xs">
         my current development stack
@@ -35,9 +33,7 @@ const Skills = ({ directionLeft }: Props) => {
           />
           <div className="absolute z-0 w-24 h-24 transition duration-300 ease-in-out rounded-full opacity-0 group-hover:opacity-80 group-hover:bg-white xl:w-32 xl:h-32">
             <div className="flex items-center justify-center h-full">
-              <p className="font-bold text-black opacity-100 text-1xl">
-                JavaScript
-              </p>
+              <p className="font-bold text-black opacity-100 text-1xl">JavaScript</p>
             </div>
           </div>
         </div>
@@ -55,9 +51,7 @@ const Skills = ({ directionLeft }: Props) => {
           />
           <div className="absolute z-0 w-24 h-24 transition duration-300 ease-in-out rounded-full opacity-0 group-hover:opacity-80 group-hover:bg-white xl:w-32 xl:h-32">
             <div className="flex items-center justify-center h-full">
-              <p className="font-bold text-black opacity-100 text-1xl">
-                TypeScript
-              </p>
+              <p className="font-bold text-black opacity-100 text-1xl">TypeScript</p>
             </div>
           </div>
         </div>
@@ -110,9 +104,7 @@ const Skills = ({ directionLeft }: Props) => {
           />
           <div className="absolute z-0 w-24 h-24 transition duration-300 ease-in-out rounded-full opacity-0 group-hover:opacity-80 group-hover:bg-white xl:w-32 xl:h-32">
             <div className="flex items-center justify-center h-full">
-              <p className="font-bold text-black opacity-100 text-1xl">
-                React.js
-              </p>
+              <p className="font-bold text-black opacity-100 text-1xl">React.js</p>
             </div>
           </div>
         </div>
@@ -148,9 +140,7 @@ const Skills = ({ directionLeft }: Props) => {
           />
           <div className="absolute z-0 w-24 h-24 transition duration-300 ease-in-out rounded-full opacity-0 group-hover:opacity-80 group-hover:bg-white xl:w-32 xl:h-32">
             <div className="flex items-center justify-center h-full">
-              <p className="font-bold text-black opacity-100 text-1xl">
-                Next.js
-              </p>
+              <p className="font-bold text-black opacity-100 text-1xl">Next.js</p>
             </div>
           </div>
         </div>
@@ -168,9 +158,7 @@ const Skills = ({ directionLeft }: Props) => {
           />
           <div className="absolute z-0 w-24 h-24 transition duration-300 ease-in-out rounded-full opacity-0 group-hover:opacity-80 group-hover:bg-white xl:w-32 xl:h-32">
             <div className="flex items-center justify-center h-full">
-              <p className="font-bold text-black opacity-100 text-1xl">
-                TailwindCSS
-              </p>
+              <p className="font-bold text-black opacity-100 text-1xl">TailwindCSS</p>
             </div>
           </div>
         </div>
@@ -208,9 +196,7 @@ const Skills = ({ directionLeft }: Props) => {
           />
           <div className="absolute z-0 w-24 h-24 transition duration-300 ease-in-out rounded-full opacity-0 group-hover:opacity-80 group-hover:bg-white xl:w-32 xl:h-32">
             <div className="flex items-center justify-center h-full">
-              <p className="font-bold text-black opacity-100 text-1xl">
-                VS Code
-              </p>
+              <p className="font-bold text-black opacity-100 text-1xl">VS Code</p>
             </div>
           </div>
         </div>
@@ -228,9 +214,7 @@ const Skills = ({ directionLeft }: Props) => {
           />
           <div className="absolute z-0 w-24 h-24 transition duration-300 ease-in-out rounded-full opacity-0 group-hover:opacity-80 group-hover:bg-white xl:w-32 xl:h-32">
             <div className="flex items-center justify-center h-full">
-              <p className="font-bold text-black opacity-100 text-1xl">
-                Node.js
-              </p>
+              <p className="font-bold text-black opacity-100 text-1xl">Node.js</p>
             </div>
           </div>
         </div>
@@ -248,9 +232,7 @@ const Skills = ({ directionLeft }: Props) => {
           />
           <div className="absolute z-0 w-24 h-24 transition duration-300 ease-in-out rounded-full opacity-0 group-hover:opacity-80 group-hover:bg-white xl:w-32 xl:h-32">
             <div className="flex items-center justify-center h-full">
-              <p className="font-bold text-black opacity-100 text-1xl">
-                MongoDB
-              </p>
+              <p className="font-bold text-black opacity-100 text-1xl">MongoDB</p>
             </div>
           </div>
         </div>
@@ -268,9 +250,7 @@ const Skills = ({ directionLeft }: Props) => {
           />
           <div className="absolute z-0 w-24 h-24 transition duration-300 ease-in-out rounded-full opacity-0 group-hover:opacity-80 group-hover:bg-white xl:w-32 xl:h-32">
             <div className="flex items-center justify-center h-full">
-              <p className="font-bold text-black opacity-100 text-1xl">
-                Postgresql
-              </p>
+              <p className="font-bold text-black opacity-100 text-1xl">Postgresql</p>
             </div>
           </div>
         </div>
@@ -288,9 +268,7 @@ const Skills = ({ directionLeft }: Props) => {
           />
           <div className="absolute z-0 w-24 h-24 transition duration-300 ease-in-out rounded-full opacity-0 group-hover:opacity-80 group-hover:bg-white xl:w-32 xl:h-32">
             <div className="flex items-center justify-center h-full">
-              <p className="font-bold text-black opacity-100 text-1xl">
-                Python
-              </p>
+              <p className="font-bold text-black opacity-100 text-1xl">Python</p>
             </div>
           </div>
         </div>
@@ -308,9 +286,7 @@ const Skills = ({ directionLeft }: Props) => {
           />
           <div className="absolute z-0 w-24 h-24 transition duration-300 ease-in-out rounded-full opacity-0 group-hover:opacity-80 group-hover:bg-white xl:w-32 xl:h-32">
             <div className="flex items-center justify-center h-full">
-              <p className="font-bold text-black opacity-100 text-1xl">
-                Django
-              </p>
+              <p className="font-bold text-black opacity-100 text-1xl">Django</p>
             </div>
           </div>
         </div>
@@ -328,9 +304,7 @@ const Skills = ({ directionLeft }: Props) => {
           />
           <div className="absolute z-0 w-24 h-24 transition duration-300 ease-in-out rounded-full opacity-0 group-hover:opacity-80 group-hover:bg-white xl:w-32 xl:h-32">
             <div className="flex items-center justify-center h-full">
-              <p className="font-bold text-black opacity-100 text-1xl">
-                Firebase
-              </p>
+              <p className="font-bold text-black opacity-100 text-1xl">Firebase</p>
             </div>
           </div>
         </div>
@@ -348,15 +322,13 @@ const Skills = ({ directionLeft }: Props) => {
           />
           <div className="absolute z-0 w-24 h-24 transition duration-300 ease-in-out rounded-full opacity-0 group-hover:opacity-80 group-hover:bg-white xl:w-32 xl:h-32">
             <div className="flex items-center justify-center h-full">
-              <p className="font-bold text-black opacity-100 text-1xl">
-                DynamoDB S3
-              </p>
+              <p className="font-bold text-black opacity-100 text-1xl">DynamoDB S3</p>
             </div>
           </div>
         </div>
       </div>
     </motion.div>
-  );
-};
+  )
+}
 
-export default Skills;
+export default Skills

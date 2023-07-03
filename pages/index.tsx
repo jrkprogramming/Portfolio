@@ -1,15 +1,15 @@
-import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
-import Header from "../components/Header";
-import Hero from "../components/Hero";
-import About from "../components/About";
-import WorkExperience from "../components/WorkExperience";
-import Skills from "../components/Skills";
-import Projects from "../components/Projects";
-import ContactMe from "../components/ContactMe";
-import styles from "../styles/Home.module.css";
-import Link from "next/link";
+import type { NextPage } from 'next'
+import Head from 'next/head'
+import Image from 'next/image'
+import Header from '../components/Header'
+import Hero from '../components/Hero'
+import About from '../components/About'
+import WorkExperience from '../components/WorkExperience'
+import Skills from '../components/Skills'
+import Projects from '../components/Projects'
+import ContactMe from '../components/ContactMe'
+import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 const Home: NextPage = () => {
   return (
@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         <About />
       </section>
 
-      <section className="h-screen snap-center">
+      <section id="experience" className="h-screen snap-center">
         <WorkExperience />
       </section>
 
@@ -47,16 +47,12 @@ const Home: NextPage = () => {
       <Link href="#hero">
         <footer className="sticky w-full cursor-pointer bottom-5">
           <div className="flex items-center justify-center">
-            <img
-              className="rounded-full cursor-pointer w-11 h-11 filter grayscale"
-              src="https://t3.ftcdn.net/jpg/04/93/13/34/360_F_493133481_xMCjoAGnltCqPYYchJvyUSktjcZJgxQf.jpg"
-              alt=""
-            />
+            <img className="rounded-full cursor-pointer w-11 h-11 filter grayscale" src="https://t3.ftcdn.net/jpg/04/93/13/34/360_F_493133481_xMCjoAGnltCqPYYchJvyUSktjcZJgxQf.jpg" alt="" />
           </div>
         </footer>
       </Link>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
