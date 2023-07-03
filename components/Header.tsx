@@ -1,9 +1,9 @@
-import React from "react";
-import { SocialIcon } from "react-social-icons";
-import { motion } from "framer-motion";
-import Link from "next/link";
+import React from 'react'
+import { SocialIcon } from 'react-social-icons'
+import { motion } from 'framer-motion'
+import Link from 'next/link'
 
-type Props = {};
+type Props = {}
 
 function Header({}: Props) {
   return (
@@ -23,21 +23,13 @@ function Header({}: Props) {
         className="flex flex-row items-center"
       >
         {/* Social Icons */}
-        <SocialIcon
-          url="https://github.com/jrkprogramming"
-          fgColor="gray"
-          bgColor="transparent"
-        />
+        <SocialIcon url="https://github.com/jrkprogramming" fgColor="gray" bgColor="transparent" />
         {/* <SocialIcon
           url="https://instagram.com/jrkviews"
           fgColor="gray"
           bgColor="transparent"
         /> */}
-        <SocialIcon
-          url="https://linkedin.com/in/joserafaelkaibigan"
-          fgColor="gray"
-          bgColor="transparent"
-        />
+        <SocialIcon url="https://linkedin.com/in/joserafaelkaibigan" fgColor="gray" bgColor="transparent" />
       </motion.div>
 
       <motion.div
@@ -61,29 +53,15 @@ function Header({}: Props) {
           fgColor="gray"
           bgColor="transparent"
         /> */}
-        <svg
-          className="w-6 h-6 mr-1 text-gray-300"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth="2"
-            d="M13 10V3L4 14h7v7l9-11h-7z"
-          ></path>
+        <svg className="w-6 h-6 mr-1 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
         </svg>
-        <a
-          href="https://drive.google.com/file/d/1PT8idr2g7DTOsTG2cpPZOZGhVpWJFWou/view?usp=share_link"
-          className="hidden text-sm text-gray-300 uppercase md:inline-flex"
-        >
+        <a href="https://drive.google.com/file/d/1HgLOJaiAi9xBUlYYgBOvcti1Qol7kb62/view?usp=sharing" className="hidden text-sm text-gray-300 uppercase md:inline-flex">
           Resumè
         </a>
       </motion.div>
     </header>
-  );
+  )
 }
 
-export default Header;
+export default Header
