@@ -183,9 +183,9 @@ const Projects = (props: Props) => {
             </h4>
 
             <p className="text-lg text-center md:text-left">
-              My app is a Pokemon arena where a user can select 3 pokemon and choose 4 moves. The user can battle the pokemon they choose and also choose the Pokemon and moves they go against. When a
-              pokemon reaches 0 HP, the pokemon faints and the user sends out the next pokemon to fight in the arena. Once there is a winner or a loser, the site needs to be refreshed and the game
-              will restart and User can select Pokemon again. (All Pokemon and moves are available)
+              Pokemon arena game where a user can select 3 pokemon and choose 4 moves. The user can battle the pokemon they choose and also choose the Pokemon and moves they go against. When a pokemon
+              reaches 0 HP, the pokemon faints and the user sends out the next pokemon to fight in the arena. Once there is a winner or a loser, the site needs to be refreshed and the game will
+              restart and User can select Pokemon again. (All Pokemon and moves are available)
             </p>
           </div>
           <div>

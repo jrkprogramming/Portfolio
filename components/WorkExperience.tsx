@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import oxefitLogo from '../public/294139000_731789167992764_3372250267614005969_n.jpeg'
-import mediacomLogo from '../public/352395447_555076740114808_2428287926097651131_n.jpeg'
+import mediacomLogo from '../public/MediacomLogo_7109F2F6-5056-A36A-0B5006A67E74E6C6-7109f2085056a36_7109fa0e-5056-a36a-0bc19d0d57ab5198.jpeg'
 
 type Props = {}
 
@@ -110,7 +110,7 @@ function WorkExperience({}: Props) {
             transition={{ duration: 1.2 }}
             whileInView={{ opacity: 1, y: 0 }}
             className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
-            src={mediacomLogo.src}
+            src="https://media-exp1.licdn.com/dms/image/C560BAQEGJo5v9k8ZDg/company-logo_200_200/0/1655671707143?e=2147483647&v=beta&t=UiiXIy95ZIrZbHXYLa4lt300Hu-b72lVrPvfABNY2bM"
             alt=""
           />
 
@@ -152,7 +152,7 @@ function WorkExperience({}: Props) {
             transition={{ duration: 1.2 }}
             whileInView={{ opacity: 1, y: 0 }}
             className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
-            src="https://media-exp1.licdn.com/dms/image/C560BAQFEwXi4jS_uvA/company-logo_200_200/0/1519878570773?e=1672272000&v=beta&t=KpybtEamgnSD1FlPQClR6cIGeqp0al_eXcuKLFcJonY"
+            src={mediacomLogo.src}
             alt=""
           />
 
