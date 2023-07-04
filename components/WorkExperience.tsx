@@ -27,7 +27,7 @@ function WorkExperience({}: Props) {
           />
 
           <div className="px-0 md:px-10">
-            <h4 className="text-4xl font-light">Software Engineer </h4>
+            <h4 className="text-4xl font-light">Software Engineer</h4>
             <p className="mt-1 text-2xl font-bold">OxeFit</p>
             <div className="flex my-2 space-x-2">
               {/* <img
